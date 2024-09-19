@@ -9,8 +9,8 @@ library(ggplot2)
 #library(shinylive)
 #library(httpuv)
 
-#setwd("~/Documents/Application_form/NGO_projects/cleaned/") 
-## change working directory for local usage. 
+# Set working directory to the data folder, change working directory for local usage. 
+setwd("../data/") #setwd("~/Documents/Application_form/NGO_projects/cleaned/data") 
 
 #unzip("epc_postcode.gpkg.zip", overwrite = TRUE, 
 #      junkpaths = FALSE, exdir=".")
